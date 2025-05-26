@@ -1,0 +1,4 @@
+2025-05-26 17:40:15,373 - INFO - 成功添加环境变量: C:\Toolchain\ninja-win
+2025-05-26 17:40:19,726 - INFO - 成功添加环境变量: C:\Toolchain\xpack-openocd-0.12.0-6-win32-x64\bin
+2025-05-26 17:40:35,510 - INFO - 成功添加环境变量: C:\Toolchain\clangd-windows-20.1.0\bin
+2025-05-26 17:40:35,844 - INFO - 成功添加环境变量: C:\Toolchain\cmake-4.0.1-windows-x86_64\bin
