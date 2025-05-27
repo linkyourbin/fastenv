@@ -16,16 +16,16 @@ import json
 from datetime import datetime
 from queue import Queue
 
-# 配置日志
-log_file = f"installer_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(log_file, encoding='utf-8'),  # 指定文件编码为utf-8
-        logging.StreamHandler()
-    ]
-)
+# # 配置日志
+# log_file = f"installer_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+# logging.basicConfig(
+#     level=logging.INFO,
+#     format="%(asctime)s - %(levelname)s - %(message)s",
+#     handlers=[
+#         logging.FileHandler(log_file, encoding='utf-8'),  # 指定文件编码为utf-8
+#         logging.StreamHandler()
+#     ]
+# )
 
 # 需要下载的工具配置
 TOOLS = {
